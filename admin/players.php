@@ -269,7 +269,7 @@ $auction = getAuction();
 												<?php endif; ?>
 												<div>
 													<h5 class="mb-0"><?php echo htmlspecialchars($player['name']); ?></h5>
-													<small class="text-muted"><?php echo htmlspecialchars($player['country']); ?> • <?php echo htmlspecialchars($player['role']); ?></small>
+													<small class="text-muted"><?php echo htmlspecialchars($player['country']); ?> • <?php echo htmlspecialchars($player['specialty']); ?></small>
 												</div>
 											</div>
 											<div class="d-flex justify-content-between align-items-center mb-2">
