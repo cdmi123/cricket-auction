@@ -1,0 +1,5 @@
+name,country,role,base_price,specialty,statistics
+John Smith,Australia,Batsman,50000,Opener,"{""matches"": 50, ""runs"": 2000, ""average"": 40.0}"
+David Miller,England,Bowler,40000,Fast Bowler,"{""matches"": 40, ""wickets"": 60, ""average"": 25.5}"
+Rahul Kumar,India,All-rounder,60000,Finisher,"{""matches"": 60, ""runs"": 1500, ""wickets"": 30}"
+Alex Carey,Australia,Wicket-keeper,45000,Keeper,"{""matches"": 45, ""runs"": 1200, ""catches"": 35}"
