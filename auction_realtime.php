@@ -513,7 +513,7 @@ function checkAllPlayersSoldAndCompleteAuction() {
                     html += `<p class="text-muted">${player.role}</p>`;
                     html += `<div class="row">`;
                     html += `<div class="col-md-4"><div class="stat-item"><span class="stat-label">Age</span><span class="stat-value">${player.age}</span></div></div>`;
-                    html += `<div class="col-md-4"><div class="stat-item"><span class="stat-label">Country</span><span class="stat-value">${player.country}</span></div></div>`;
+                    html += `<div class="col-md-4"><div class="stat-item"><span class="stat-label"></span><span class="stat-value">${player.country}</span><span class="stat-value">${player.specialty}</span></div></div>`;
                     html += `<div class="col-md-4"><div class="stat-item"><span class="stat-label">Base Price</span><span class="stat-value">${parseFloat(player.base_price).toLocaleString(undefined, {minimumFractionDigits:2})}</span></div></div>`;
                     html += `</div>`;
                     document.getElementById('player-info-section').innerHTML = html;
